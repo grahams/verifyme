@@ -18,7 +18,7 @@ I have helped existing teams with decades of loose, ad hoc practice and process 
  
 * 11/2017-12/2018 - Principal Software Engineer
     - Assumed management of a 6 person team responsible for company's SDK product, *RasterMaster*
-    - Promoted and mentored leads for both next generation and legacy teams
+    - Promoted and mentored leads for both application and SDK teams
     - Lead engineering process from legacy practices to pull requests, code reviews, and automated, gating CI/CD.  Each of these steps reduced conflict, regressions, and pain endured by testing, support and customers.
 
 * 9/2014-11/2017 - Lead Software Engineer
