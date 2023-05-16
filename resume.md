@@ -8,8 +8,15 @@ I have grown these applications from being the initial individual contributor to
 I have helped existing teams with decades of loose, ad hoc practice and process move into a modern, distributed, collaborative model, resulting in a maintainable, stable platform and improving the experience for our own team as well as customers.
 
 ## Experience
+### Accusoft
+* 1/2023-Present - Senior Development Manager II
+    - Leading the VirtualViewer team, which is now blended between engineers who came over from Snowbound as well as Accusoft employees
+    - Guiding the ex-Snowbound personnel adapt to scrum at Accusoft's and the Accusoft personnel learn VirtualViewer
+    - Managing the transition to Accusoft CI/CD practices
+    - Working with management and staff across Accusoft, as they begin to understand the strengths of both the VirtualViewer and RasterMaster team and products
+
 ### Snowbound Software
-* 12/2018-Present - Director of Software Engineering
+* 12/2018-12/2022 - Director of Software Engineering
     - Reporting to the C-Suite, I am the directly responsible individual for product strategy and technical direction, while advising on organizational direction and strategic partnerships
     - Lead entire engineering organization, primary responsibility for hirings, management, and leadership across a team of 12
     - Developed performance measurement, career track, and compensation standards within Engineering
