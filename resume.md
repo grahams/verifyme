@@ -9,7 +9,7 @@ I have helped existing teams with decades of loose, ad hoc practice and process 
 
 ## Experience
 ### Accusoft
-* 1/2023-Present - Senior Development Manager II
+* 1/2023-8/2025 - Senior Development Manager II
     - Mangaging the "Growth" team building new features and functionality for the PrizmDoc product.
     - Leading the post-acquisition transition for the VirtualViewer (now PrizmDoc for Java) team, which is now blended between engineers who came over from Snowbound as well as Accusoft employees
     - Guiding the ex-Snowbound personnel as they adapt to scrum at Accusoft's and the Accusoft personnel learn VirtualViewer
