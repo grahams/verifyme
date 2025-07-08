@@ -10,8 +10,9 @@ I have helped existing teams with decades of loose, ad hoc practice and process 
 ## Experience
 ### Accusoft
 * 1/2023-Present - Senior Development Manager II
-    - Leading the VirtualViewer team, which is now blended between engineers who came over from Snowbound as well as Accusoft employees
-    - Guiding the ex-Snowbound personnel adapt to scrum at Accusoft's and the Accusoft personnel learn VirtualViewer
+    - Mangaging the "Growth" team building new features and functionality for the PrizmDoc product.
+    - Leading the post-acquisition transition for the VirtualViewer (now PrizmDoc for Java) team, which is now blended between engineers who came over from Snowbound as well as Accusoft employees
+    - Guiding the ex-Snowbound personnel as they adapt to scrum at Accusoft's and the Accusoft personnel learn VirtualViewer
     - Managing the transition to Accusoft CI/CD practices
     - Working with management and staff across Accusoft, as they begin to understand the strengths of both the VirtualViewer and RasterMaster team and products
 
@@ -56,5 +57,4 @@ I have helped existing teams with decades of loose, ad hoc practice and process 
 ## Finding me
 - Github : [https://github.com/grahams](https://github.com/grahams)
 - LinkedIn : [https://www.linkedin.com/in/grahams/](https://www.linkedin.com/in/grahams/)
-- Keybase : [https://keybase.io/grahams](https://keybase.io/grahams)
 - [jobs@sean-graham.com](mailto:jobs@sean-graham.com)
