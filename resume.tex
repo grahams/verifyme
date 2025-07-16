@@ -1,0 +1,159 @@
+
+\documentclass[letterpaper,10pt]{article}
+\usepackage{resume}
+
+
+%===================%
+% John Doe's Resume %
+%===================%
+
+%\numberedPages % NOTE: lastpage requires a second build
+%\documentFooter{\thepage of 2} % Does similar without using lastpage
+\begin{document}
+
+  %---------%
+  % Heading %
+  %---------%
+
+  \documentTitle{Sean Graham}{
+    % Web Version
+    %\raisebox{-0.05\height} \faPhone\ [redacted - web copy] ~
+    %\raisebox{-0.15\height} \faEnvelope\ [redacted - web copy] ~
+    %%
+    \href{tel:6176425787}{
+      \raisebox{-0.05\height} \faPhone\ 617-642-5787} ~ | ~
+    \href{mailto:jobs@sean-graham.com}{
+      \raisebox{-0.15\height} \faEnvelope\ jobs@sean-graham.com} ~ | ~
+    \href{https://linkedin.com/in/grahams/}{
+      \raisebox{-0.15\height} \faLinkedin\ linkedin.com/in/grahams} ~ | ~
+    \href{https://github.com/grahams}{
+      \raisebox{-0.15\height} \faGithub\ github.com/grahams}
+  }
+
+  %---------%
+  % Summary %
+  %---------%
+  
+  \section{Expertise}
+
+  \begin{resume_list}
+    \item I have brought multiple commercial applications from napkin sketches, through prototypes, to shipping and selling multiple millions of dollars.
+    \vspace{3pt}
+    \item I have grown these applications from being the initial individual contributor to managing and mentoring a team of engineers.
+    \vspace{3pt}
+    \item I have helped existing teams with decades of loose, ad hoc practice and process move into a modern, distributed, collaborative model, resulting in a maintainable, stable platform and improving the experience for our own team as well as customers.
+  \end{resume_list}
+
+  %--------%
+  % Skills %
+  %--------%
+
+%%   \section{Skills}
+%% 
+%%   \begin{multicols}{2}
+%%     \begin{itemize}[itemsep=-2px, parsep=1pt, leftmargin=75pt]
+%%       \item[\textbf{Automation}] SaltStack, Ansible, Chef, Puppet
+%%       \item[\textbf{Cloud}] Salt-Cloud, Linode, GCP, AWS
+%%       \item[\textbf{Languages}] Python, Bash, PHP, Perl, VB/C\#.Net
+%%       \item[\textbf{OS}] Debian, Ubuntu, CentOS, BSD, AIX
+%%       \item[\textbf{Policies}] CIS, SOC2, PCI-DSS, GDPR, ITIL
+%%       \item[\textbf{Testing}] Pytest, Docker, CircleCI, Jenkins, Inspec
+%%     \end{itemize}
+%%   \end{multicols}
+
+  %------------%
+  % Experience %
+  %------------%
+
+  \section{Experience}
+
+  \headingBf{Accusoft}{Jan 2023 -- July 2025}
+  \headingIt{Software Development Manager II}{}
+  \begin{resume_list}
+    \item Accusoft acquired Snowbound Software in late 2022, and in the merger I accepted a change of responsibilities.
+    \item Managing the team bringing LLM features and functionality to the PrizmDoc product.
+    \item Leading the post-acquisition transition for the VirtualViewer team, which is now blended between engineers who came over from Snowbound as well as Accusoft employees
+    \item Guiding the ex-Snowbound personnel as they adapt to scrum at Accusoft's and the Accusoft personnel learn VirtualViewer
+    \item Managing the transition to Accusoft CI/CD practices
+    \item Working with management and staff across Accusoft, as they begin to understand the strengths of both the VirtualViewer and RasterMaster team and products
+    \item (Accusoft was acquired by Apryse in July 2025)
+  \end{resume_list}
+
+  \headingBf{Snowbound Software}{Sep 2006 -- Sec 2022}
+  \headingIt{Director of Software Engineering}{Dec 2018 -- Dec 2022}
+  \begin{resume_list}
+    \item Reporting to the C-Suite, I am the directly responsible individual for product strategy and technical direction, while advising on organizational direction and strategic partnerships
+    \item Lead entire engineering organization, primary responsibility for hiring, management, and leadership across a team of 12
+    \item Developed performance measurement, career track, and compensation standards within Engineering
+    \item Transitioned Engineering to 100\% percent remote work, while decreasing length of individual development cycles
+  \end{resume_list}
+     
+  \headingIt{Principal Software Engineer}{Nov 2017 -- Dec 2018}
+  \begin{resume_list}
+    \item Assumed management of a 6 person team responsible for company's SDK product, RasterMaster
+    \item Promoted and mentored leads for both application and SDK teams
+    \item Lead engineering process from legacy practices to pull requests, code reviews, and automated, gating CI/CD.  Each of these steps reduced the conflict, regressions and pain endured by testing, support, and customers.
+  \end{resume_list}
+
+     
+  \headingIt{Lead Software Engineer}{Sep 2014 -- Nov 2017}
+  \begin{resume_list}
+    \item  Grew the VirtualViewer team to 6 members and assumed management responsibilities 
+  \end{resume_list}
+
+  \headingIt{Senior Software Engineer}{Sep 2006 -- Sep 2014}
+  \begin{resume_list}
+      \item Created the company's next generation product, VirtualViewer HTML5, taking the product from proposal to PoC, creating the critical revenue stream it is for the company today.
+  \end{resume_list}
+
+  \headingBf{Goodrich Corp, Surveillance and Reconnaissance Systems}{March 2004 -- Sep 2006}
+  \headingIt{Senior Software Engineer}{}
+  \begin{resume_list}
+    \item Designed image-analysis software for the U2 ground station
+    \item Provided on site software engineering support for U2 flight testing
+  \end{resume_list}
+  
+  \headingBf{Rovia, Inc.}{May 2001 -- Oct 2002}
+  \headingIt{Software Engineer}{}
+  \begin{resume_list}
+      \item Designed and developed the RovReader ebook system and ShareSafe document security system.
+  \end{resume_list}
+  
+  \headingBf{RIT Center for Imaging Science}{March 2000 -- Oct 2000}
+  \headingIt{Software Engineering Co-op}{}
+  \begin{resume_list}
+    \item Member of the team working on the Data Cycle System (DCS) for the NASA Stratospheric Observatory For Infrared Astronomy (SOFIA)
+    \item Lead the Design, Prototyping, and Implementation of the Data Typing technologies in the DCS 
+  \end{resume_list}
+
+  
+  %-----------%
+  % Education %
+  %-----------%
+
+  \section{Education}
+
+  \headingBf{Rochester Institute of Technology}{} % Note: Adding year(s) exposes an implied age
+  \headingIt{Bachelor of Science in Computer Science}{}
+
+  %----------------------------%
+  % Extracurricular Activities %
+  %----------------------------%
+
+%%   \section{Projects}
+%% 
+%%   \headingBf{Hospital / Health Science IRB}{Mar 2015 -- Present}
+%%   \begin{resume_list}
+%%     \item Served as non-scientific/unaffiliated patient-representative
+%%     \item Reviewed patient consent forms for completeness, accuracy, and clarity
+%%     \item Became familiar with industry standards and regulations (OHRP, HIPAA)
+%%   \end{resume_list}
+%% 
+%%   \headingBf{Debian Linux}{Jan 2001 -- Present}
+%%   \begin{resume_list}
+%%     \item Maintained packages in Debian repositories
+%%     \item Reviewed and sponsored packages on behalf of prospective Developers
+%%     \item Resolved bugs reported in bug tracking system
+%%   \end{resume_list}
+
+\end{document}

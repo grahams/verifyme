@@ -1,0 +1,40 @@
+name: Build PDF Resume
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up Git repository
+        uses: actions/checkout@v4
+      - name: Compile LaTeX document
+        uses: xu-cheng/latex-action@v4
+        with:
+          root_file: resume.tex
+      - name: move pdf
+        id: build
+        run: |
+          mkdir pages
+          mv resume.pdf ./pages/
+          cp docs/index.html ./pages/index.html
+          ls -alF ./pages
+      - name: Upload Artifact
+        id: deployment
+        uses: actions/upload-pages-artifact@v3
+        with:
+          # location of the coverage artifacts
+          path: pages/
+
+  deploy:
+    environment:
+      # environment created automatically by GitHub
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    permissions:
+      pages: write
+      id-token: write
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
